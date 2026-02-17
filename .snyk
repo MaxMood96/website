@@ -5,6 +5,6 @@ ignore: {}
 patch:
   SNYK-JS-LODASH-567746:
     - postcss-cli > postcss-reporter > lodash:
-        patched: '2026-02-10T02:27:18.093Z'
+        patched: '2026-02-17T06:30:00.141Z'
         id: SNYK-JS-LODASH-567746
         path: postcss-cli > postcss-reporter > lodash
