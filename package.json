@@ -3,5 +3,13 @@
   "devDependencies": {
     "autoprefixer": "^9.8.4",
     "postcss-cli": "^7.1.1"
+  },
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
